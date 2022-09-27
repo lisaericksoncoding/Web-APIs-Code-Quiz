@@ -1,9 +1,10 @@
 var startBtn = document.querySelector("#start");
 var timerEl = document.querySelector("#time");
-var questionsEl = document.querySelector("#questions");
+var questionsEl = document.querySelector("#totalQuestions");
 var choicesEl = document.querySelector("#choices");
 var submitBtn = document.querySelector("#submit");
 var initialsEl = document.querySelector("#initials");
+var hide = document.querySelector("#hide");
 
 var totalQuestions = [
     {
@@ -29,14 +30,20 @@ var totalQuestions = [
     },
     {
         question: "What is considered to be the most popular programming language in the world?",
-        choices: ["HTML","C++","Ruby","JavaScript" ],
+        choices: ["HTML","C++","Ruby","JavaScript"],
         answer: "JavaScript"
     },
 
 ];
+
+var time = 100;
+
+hide.style.display = 'none';
+
 startBtn.addEventListener("click", startQuiz())
 
 function startQuiz() {
+    hide.style.display = 'block';
     timerEl = setInterval(countdown, 1000);
     
 }
