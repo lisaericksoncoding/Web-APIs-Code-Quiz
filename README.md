@@ -20,9 +20,9 @@ Create a timed Coding quiz that stores high scores.
 
 ## Sources
 
-[W3Schools Site](https://www.w3schools.com "W3Schools")
-[StackOverflow Site](https://stackoverflow.com/ "Stack Overflow")
-[JavaScript.info Site](https://javascript.info/ "JavaScript.info")
+-[W3Schools Site](https://www.w3schools.com "W3Schools")
+-[StackOverflow Site](https://stackoverflow.com/ "Stack Overflow")
+-[JavaScript.info Site](https://javascript.info/ "JavaScript.info")
 
 ## Author
 
