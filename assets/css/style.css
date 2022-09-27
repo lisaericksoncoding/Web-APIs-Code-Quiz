@@ -1,26 +1,26 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: navy;
+
 }
+
 main {
     text-align: center;
     margin: 150px auto 0 auto;
     max-width: 80%;
 }
+
 p {
     margin: 50px 100px 25px 100px;
 
 }
-.scores {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
+
 .timer {
     position: absolute;
     top: 20px;
     right: 20px;
 }
+
 button {
     display: inline-block;
     background-color: rgb(35, 236, 136);
@@ -28,6 +28,23 @@ button {
     color: navy;
     border-color: navy;
 }
+
 button:hover {
     background-color: rgb(14, 133, 73);
+}
+
+.hide {
+    display: none;
+}
+
+.totalQuestions {
+    background-color: white(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: navy(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: navy;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
 }

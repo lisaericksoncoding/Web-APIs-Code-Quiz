@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,23 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Coding Quiz</title>
 </head>
+
 <body>
     <header>
-        <h1 class="scores">View the Scoreboard</h1>
         <h1 class="timer">Time Remaining: <span id="time">0</span></h1>
     </header>
     <main class="main">
-        <h1>Coding Quiz</h1>
+        <h2>Coding Quiz</h2>
         <p>
-          Let's see what you know about coding! Take this timed quiz. You'll have 100 seconds to answer five questions. Work quickly but not too quickly - wrong answers will take 10 seconds away from your time!
+            Let's see what you know about coding! Take this timed quiz. <br>You'll have 100 seconds to answer five
+            questions. <br> Work quickly but not too quickly - wrong answers will take 10 seconds away from your time!
         </p>
         <button id="start">Start Quiz</button>
+        <section class="totalQuestions" class="hide"></section>
+        <h3 id="question"></h3>
+        <div id="choices"></div>
     </main>
-    <footer>
-    </footer>
-    <script>
-    </script>
+    <script src=".script.js"></script>
 </body>
+
 </html>
